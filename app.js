@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const helmet = reqiure('helmet')
 const policyRoute = require('./routes/policyRoute');
 
 const app = express();
