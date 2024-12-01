@@ -34,6 +34,7 @@ if (data.isAuthenticated) {
     document.getElementById('welcome-message').textContent = `Welcome, ${data.username}`;
 };
 
+
 // 
 document.addEventListener('DOMContentLoaded', () => {
     fetch('/auth/check-session')
